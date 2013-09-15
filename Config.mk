@@ -15,6 +15,11 @@
         S5FS=0
           VM=0
      DYNAMIC=0
+     DRIVERS=1
+         VFS=1
+        S5FS=1
+          VM=1
+     DYNAMIC=1
 # When you finish S5FS, first enable "VM"; once this is working, then enable
 # "DYNAMIC".
 

@@ -1,0 +1,6 @@
+/home/lakshmy/weenix/weenix/kernel/main/gdt.gdb
+/home/lakshmy/weenix/weenix/kernel/proc/kthread.gdb
+/home/lakshmy/weenix/weenix/kernel/proc/proc.py
+/home/lakshmy/weenix/weenix/kernel/util/debug.py
+/home/lakshmy/weenix/weenix/kernel/util/list.py
+/home/lakshmy/weenix/weenix/kernel/vm/vmmap.gdb

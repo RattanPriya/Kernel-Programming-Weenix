@@ -1,0 +1,2252 @@
+/usr/bin/qemu-system-i386
+[32;40mKernel binary:
+[0m[32;40m  text: 0xc0000000-0xc005e000
+[0m[32;40m  data: 0xc005e000-0xc005e8fc
+[0m[32;40m  bss:  0xc005e8fc-0xc0069000
+[0m[31;40mPhysical Memory Map:
+[0m[31;40m    0x00000000-0x0009f400: Usable
+[0m[31;40m    0x0009f400-0x000a0000: Reserved
+[0m[31;40m    0x000f0000-0x00100000: Reserved
+[0m[31;40m    0x00100000-0x01ffd000: Usable
+[0m[31;40mHighest usable physical memory: 0x01ffd000
+[0m[31;40mAvailable memory: 0x01efd000
+[0m[31;40mPage System adding range: 0xc0075400 to 0xc1efd000
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 0
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "slab_allocators" (0xc0068944)
+[0m[31;40m  Object Size:   32
+[0m[31;40m  Order:         0
+[0m[31;40m  Slab Capacity: 102
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1efb000)
+[0m[31;40mmm/slab.c:253 _slab_allocator_grow(): Growing cache "slab_allocators" (0xc0068944), new slab 0xc1efbff0 (1 pages)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb000 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 1
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 0
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "size-64" (0xc1efb004)
+[0m[31;40m  Object Size:   72
+[0m[31;40m  Order:         0
+[0m[31;40m  Slab Capacity: 51
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb028 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 2
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 48
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 4, waste 0
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "size-128" (0xc1efb02c)
+[0m[31;40m  Object Size:   136
+[0m[31;40m  Order:         4
+[0m[31;40m  Slab Capacity: 455
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb050 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 3
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 0
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "size-256" (0xc1efb054)
+[0m[31;40m  Object Size:   264
+[0m[31;40m  Order:         0
+[0m[31;40m  Slab Capacity: 15
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb078 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 4
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 384
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 1, waste 256
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 2, waste 0
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "size-512" (0xc1efb07c)
+[0m[31;40m  Object Size:   520
+[0m[31;40m  Order:         2
+[0m[31;40m  Slab Capacity: 31
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb0a0 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 5
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 960
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 1, waste 896
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 2, waste 768
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 3, waste 512
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 4, waste 0
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "size-1024" (0xc1efb0a4)
+[0m[31;40m  Object Size:   1032
+[0m[31;40m  Order:         4
+[0m[31;40m  Slab Capacity: 63
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb0c8 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 6
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 2016
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 1, waste 1984
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 2, waste 1920
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 3, waste 1792
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 4, waste 1536
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "size-2048" (0xc1efb0cc)
+[0m[31;40m  Object Size:   2056
+[0m[31;40m  Order:         4
+[0m[31;40m  Slab Capacity: 31
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb0f0 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 7
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 1, waste 4064
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 2, waste 4032
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 3, waste 3968
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 4, waste 3840
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "size-4096" (0xc1efb0f4)
+[0m[31;40m  Object Size:   4104
+[0m[31;40m  Order:         4
+[0m[31;40m  Slab Capacity: 15
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb118 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 8
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 2, waste 8160
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 3, waste 8128
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 4, waste 8064
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "size-8192" (0xc1efb11c)
+[0m[31;40m  Object Size:   8200
+[0m[31;40m  Order:         4
+[0m[31;40m  Slab Capacity: 7
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb140 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 9
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 3, waste 16352
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 4, waste 16320
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "size-16384" (0xc1efb144)
+[0m[31;40m  Object Size:   16392
+[0m[31;40m  Order:         4
+[0m[31;40m  Slab Capacity: 3
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb168 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 10
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 4, waste 32736
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "size-32768" (0xc1efb16c)
+[0m[31;40m  Object Size:   32776
+[0m[31;40m  Order:         4
+[0m[31;40m  Slab Capacity: 1
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb190 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 11
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 5, waste 65504
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "size-65536" (0xc1efb194)
+[0m[31;40m  Object Size:   65544
+[0m[31;40m  Order:         5
+[0m[31;40m  Slab Capacity: 1
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb1b8 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 12
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 6, waste 131040
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "size-131072" (0xc1efb1bc)
+[0m[31;40m  Object Size:   131080
+[0m[31;40m  Order:         6
+[0m[31;40m  Slab Capacity: 1
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb1e0 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 13
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 7, waste 262112
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "size-262144" (0xc1efb1e4)
+[0m[31;40m  Object Size:   262152
+[0m[31;40m  Order:         7
+[0m[31;40m  Slab Capacity: 1
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb208 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 14
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 48
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 1, waste 40
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 2, waste 24
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 4, waste 0
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "pframe" (0xc1efb20c)
+[0m[31;40m  Object Size:   64
+[0m[31;40m  Order:         4
+[0m[31;40m  Slab Capacity: 910
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1ef9000 (1) into 0xc1ef9000 and 0xc1efa000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1efa000)
+[0m[31;40mmm/slab.c:253 _slab_allocator_grow(): Growing cache "size-64" (0xc1efb004), new slab 0xc1efaff0 (1 pages)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa000 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 1
+[0m[32;40m--- ACPI INIT ---
+[0m[32;40mrsdp addr:  000fdab0
+[0m[32;40mrsdt addr:  c1efa008
+[0m[32;40mrev:        0
+[0m[32;40moem:        BOCHS 6
+[0m[32;40ments:	[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e75000 (7) into 0xc1e75000 and 0xc1eb5000
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1eb5000 (6) into 0xc1eb5000 and 0xc1ed5000
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1ed5000 (5) into 0xc1ed5000 and 0xc1ee5000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 16 pages (addr 0xc1ee5000)
+[0m[31;40mmm/slab.c:253 _slab_allocator_grow(): Growing cache "size-128" (0xc1efb02c), new slab 0xc1ef4ff0 (16 pages)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee5000 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 1
+[0m[32;40mFACP [0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1ef9000)
+[0m[31;40mmm/slab.c:253 _slab_allocator_grow(): Growing cache "size-256" (0xc1efb054), new slab 0xc1ef9ff0 (1 pages)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ef9000 from "size-256" (0xc1efb054), slab 0xc1efb054, inuse 1
+[0m[32;40mSSDT [0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee5090 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 2
+[0m[32;40mAPIC [0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa050 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 2
+[0m[32;40mHPET [0m[32;40m
+[0m[32;40m--- APIC INIT ---
+[0m[32;40mlocal apic paddr:     0xfee00000
+[0m[32;40mPC-AT compatible:    1
+[0m[32;40mLAPIC:
+[0m[32;40m   id:         0x00
+[0m[32;40m   processor:  0x000
+[0m[32;40m   enabled:    1
+[0m[32;40mIOAPIC:
+[0m[32;40m   id:         0x01
+[0m[32;40m   base paddr:  0xfec00000
+[0m[32;40m   inti addr:   0x00000000
+[0m[32;40mUnknown APIC type:  0x2
+[0m[32;40mUnknown APIC type:  0x2
+[0m[32;40mUnknown APIC type:  0x2
+[0m[32;40mUnknown APIC type:  0x2
+[0m[32;40mUnknown APIC type:  0x2
+[0m[32;40mLocal APIC 0x00 Configuration:
+[0m[32;40m    APIC Version:         0x11
+[0m[32;40m    Spurious Vector:      0x000001ff
+[0m[32;40mIO APIC 0x00 Configuration:
+[0m[32;40m    APIC Version:         0x11
+[0m[32;40m    Maximum Redirection:  0x17
+[0m[32;40mmain/apic.c:263 apic_setspur(): mapping spurious interrupts to %hu
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb230 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 15
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 0
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "AnonAllocator" (0xc1efb234)
+[0m[31;40m  Object Size:   40
+[0m[31;40m  Order:         0
+[0m[31;40m  Slab Capacity: 85
+[0m[0mvm/anon.c:42 anon_init(): ANON_INIT: KASSERT(anon_allocator) executed successfully
+[0m[0mvm/anon.c:44 anon_init(): ANON_INIT: Returning successfully
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb258 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 16
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 0
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "Shadow Allocator" (0xc1efb25c)
+[0m[31;40m  Object Size:   40
+[0m[31;40m  Order:         0
+[0m[31;40m  Slab Capacity: 85
+[0m[0mvm/shadow.c:55 shadow_init(): SHADOW_INIT: KASSERT(anon_allocator) executed successfully
+[0m[0mvm/shadow.c:57 shadow_init(): SHADOW_INIT: Returning successfully
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb280 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 17
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 20
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 1, waste 0
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "vmmap" (0xc1efb284)
+[0m[31;40m  Object Size:   20
+[0m[31;40m  Order:         1
+[0m[31;40m  Slab Capacity: 292
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb2a8 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 18
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 0
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "vmarea" (0xc1efb2ac)
+[0m[31;40m  Object Size:   52
+[0m[31;40m  Order:         0
+[0m[31;40m  Slab Capacity: 68
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb2d0 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 19
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 240
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 1, waste 16
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "proc" (0xc1efb2d4)
+[0m[31;40m  Object Size:   472
+[0m[31;40m  Order:         1
+[0m[31;40m  Slab Capacity: 17
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb2f8 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 20
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 48
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 1, waste 28
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 4, waste 0
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "kthread" (0xc1efb2fc)
+[0m[31;40m  Object Size:   76
+[0m[31;40m  Order:         4
+[0m[31;40m  Slab Capacity: 780
+[0m[32;40mmain/apic.c:256 apic_setredir(): redirecting irq 1 to interrupt %hu
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa0a0 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 3
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa0f0 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 4
+[0m[1;35;40mdrivers/tty/n_tty.c:190 n_tty_attach(): Attaching n_tty line discipline to tty 0
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ef9110 from "size-256" (0xc1efb054), slab 0xc1efb054, inuse 2
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa140 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 5
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa190 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 6
+[0m[1;35;40mdrivers/tty/n_tty.c:190 n_tty_attach(): Attaching n_tty line discipline to tty 1
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ef9220 from "size-256" (0xc1efb054), slab 0xc1efb054, inuse 3
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa1e0 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 7
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa230 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 8
+[0m[1;35;40mdrivers/tty/n_tty.c:190 n_tty_attach(): Attaching n_tty line discipline to tty 2
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ef9330 from "size-256" (0xc1efb054), slab 0xc1efb054, inuse 4
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa280 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 9
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa2d0 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 10
+[0m[32;40mmain/apic.c:256 apic_setredir(): redirecting irq 14 to interrupt %hu
+[0m[32;40mmain/apic.c:256 apic_setredir(): redirecting irq 15 to interrupt %hu
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee5120 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 3
+[0m[33;40mdrivers/disk/ata.c:311 ata_init(): Initialized ATA device 0, channel PRIMARY, drive MASTER, size 8192
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1ef5000 (2) into 0xc1ef5000 and 0xc1ef7000
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1ef7000 (1) into 0xc1ef7000 and 0xc1ef8000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1ef8000)
+[0m[33;40mdrivers/disk/ata.c:330 ata_intr_wrapper(): ATA interrupt
+[0m[33;40mdrivers/disk/ata.c:595 ata_intr(): Received interrupt w/ intr number 208, error code 0, for channel 0, drive 0
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[0mmain/kmain.c:143 bootstrap(): 
+-----BOOTSTRAP FUNCTION ENTERED----
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 2 pages (addr 0xc1ef5000)
+[0m[0mmain/kmain.c:145 bootstrap(): ootstrap: pt_template_init successful
+[0mproc_create: Allocating proc data-structures
+[37;40mmm/page.c:174 __page_split(): split 0xc1ed5000 (4) into 0xc1ed5000 and 0xc1edd000
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1edd000 (3) into 0xc1edd000 and 0xc1ee1000
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1ee1000 (2) into 0xc1ee1000 and 0xc1ee3000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 2 pages (addr 0xc1ee3000)
+[0m[31;40mmm/slab.c:253 _slab_allocator_grow(): Growing cache "proc" (0xc1efb2d4), new slab 0xc1ee4fe0 (2 pages)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee3000 from "proc" (0xc1efb2d4), slab 0xc1efb2d4, inuse 1
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 2 pages (addr 0xc1ee1000)
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1edd000 (2) into 0xc1edd000 and 0xc1edf000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 2 pages (addr 0xc1edf000)
+[0m[31;40mmm/slab.c:253 _slab_allocator_grow(): Growing cache "vmmap" (0xc1efb284), new slab 0xc1ee0ff0 (2 pages)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1edf000 from "vmmap" (0xc1efb284), slab 0xc1efb284, inuse 1
+[0m[0mvm/vmmap.c:60 vmmap_create(): VMMAP_CREATE: KASSERT map!=NULL executed successfully
+[0m[0mvm/vmmap.c:63 vmmap_create(): VMMAP_CREATE: Successfully initialized
+[0mproc_create: proc created
+[0mmain/kmain.c:148 bootstrap(): bootstrap:Idle Proc created
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1eb5000 (5) into 0xc1eb5000 and 0xc1ec5000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 16 pages (addr 0xc1ec5000)
+[0m[31;40mmm/slab.c:253 _slab_allocator_grow(): Growing cache "kthread" (0xc1efb2fc), new slab 0xc1ed4ff0 (16 pages)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ec5000 from "kthread" (0xc1efb2fc), slab 0xc1efb2fc, inuse 1
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 16 pages (addr 0xc1eb5000)
+[0mkthread_create: thread data structures created
+kthread_create: Context setup successful
+[0mmain/kmain.c:150 bootstrap(): bootstrap:Idle thread created
+[0m[0mmain/kmain.c:155 bootstrap(): bootstrap:Idle Proc context made active
+[0mIdleProc: creating initproc
+proc_create: Allocating proc data-structures
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee31e0 from "proc" (0xc1efb2d4), slab 0xc1efb2d4, inuse 2
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 2 pages (addr 0xc1edd000)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1edf01c from "vmmap" (0xc1efb284), slab 0xc1efb284, inuse 2
+[0m[0mvm/vmmap.c:60 vmmap_create(): VMMAP_CREATE: KASSERT map!=NULL executed successfully
+[0m[0mvm/vmmap.c:63 vmmap_create(): VMMAP_CREATE: Successfully initialized
+[0mproc_create: proc created
+[0mmain/kmain.c:271 initproc_create(): 
+InitProc: initproc created
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ec5054 from "kthread" (0xc1efb2fc), slab 0xc1efb2fc, inuse 2
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e75000 (6) into 0xc1e75000 and 0xc1e95000
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e95000 (5) into 0xc1e95000 and 0xc1ea5000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 16 pages (addr 0xc1ea5000)
+[0mkthread_create: thread data structures created
+kthread_create: Context setup successful
+[0mmain/kmain.c:281 initproc_create(): 
+InitProc: initproc_thread created
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa320 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 11
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa370 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 12
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa3c0 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 13
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa410 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 14
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa460 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 15
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa4b0 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 16
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa500 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 17
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa550 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 18
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa5a0 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 19
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa5f0 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 20
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa640 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 21
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa690 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 22
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa6e0 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 23
+[0m[0mutil/init.c:106 init_call_all(): Initialization functions and dependencies:
+[0m[0msched_init (0xc00123d6): [0m[0m
+[0m[0mfile_init (0xc0013c67): [0m[0m
+[0m[0mvfs_init (0xc0015b77): [0m[0mvnode_init [0m[0mfile_init [0m[0m
+[0m[0mvnode_init (0xc0019c07): [0m[0m
+[0m[0mbinfmt_init (0xc0021c03): [0m[0m
+[0m[0melf32_init (0xc0024189): [0m[0mbinfmt_init [0m[0m
+[0m[0msyscall_init (0xc0024711): [0m[0m
+[0m[0mkshell_init (0xc0027c58): [0m[0m
+[0m[0mpageoutd_init (0xc004012e): [0m[0msched_init [0m[0m
+[0m[0mutil/init.c:63 _init_call(): Calling sched_init (0xc00123d6)
+[0m[0mutil/init.c:63 _init_call(): Calling file_init (0xc0013c67)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb320 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 21
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 16
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "file" (0xc1efb324)
+[0m[31;40m  Object Size:   24
+[0m[31;40m  Order:         0
+[0m[31;40m  Slab Capacity: 127
+[0m[0mutil/init.c:51 _init_call(): 'vfs_init' depends on 'vnode_init': [0m[0mcalling
+[0m[0mutil/init.c:63 _init_call(): Calling vnode_init (0xc0019c07)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efb348 from "slab_allocators" (0xc0068944), slab 0xc0068944, inuse 22
+[0m[31;40mmm/slab.c:139 _calc_slab_size(): calc_slab_size: minorder 0, waste 112
+[0m[31;40mmm/slab.c:150 _calc_slab_size(): calc_slab_size: replacing with order 2, waste 0
+[0m[31;40mmm/slab.c:182 _allocator_init(): Initialized new slab allocator:
+[0m[31;40m  Name:          "vnode" (0xc1efb34c)
+[0m[31;40m  Object Size:   116
+[0m[31;40m  Order:         2
+[0m[31;40m  Slab Capacity: 132
+[0m[0mutil/init.c:51 _init_call(): 'vfs_init' depends on 'file_init': [0m[0malready called
+[0m[0mutil/init.c:63 _init_call(): Calling vfs_init (0xc0015b77)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee51b0 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 4
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa730 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 24
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 16 pages (addr 0xc1e95000)
+[0m[31;40mmm/slab.c:253 _slab_allocator_grow(): Growing cache "pframe" (0xc1efb20c), new slab 0xc1ea4ff0 (16 pages)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e95000 from "pframe" (0xc1efb20c), slab 0xc1efb20c, inuse 1
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1ef7000)
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[33;40mdrivers/disk/ata.c:517 ata_do_operation(): Preparing DMA PRD with data at 0xc1ef7000, 8 sectors (total size 4096), and write 0
+[0m[33;40mdrivers/disk/ata.c:526 ata_do_operation(): Preparing disk with seccount 8, lba0 0x00, lba1 0x00, lba2 0x00
+[0m[33;40mdrivers/disk/ata.c:537 ata_do_operation(): Writing command READ DMA, 0xc8
+[0m[33;40mdrivers/disk/ata.c:547 ata_do_operation(): After command, before start of DMA, disk status is 0xd8
+[0msched_sleep_on: Entered
+Enqueuing
+sched_sleep_on: Calling schedule switch
+[33;40mdrivers/disk/ata.c:330 ata_intr_wrapper(): ATA interrupt
+[0m[33;40mdrivers/disk/ata.c:595 ata_intr(): Received interrupt w/ intr number 208, error code 0, for channel 0, drive 0
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: and it was a valid thread
+sched_wakeup_on: making it runnable
+sched_make_runnable: Making thread runnable
+sched_wakeup_on: returning
+[33;40mdrivers/disk/ata.c:559 ata_do_operation(): ATA status: 0x50
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;35;40mmm/pframe.c:404 pframe_pin(): pframe_pin: page 0 of obj c1ee5158 becoming PINNED
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+[37;40mmm/page.c:174 __page_split(): split 0xc1ed5000 (3) into 0xc1ed5000 and 0xc1ed9000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 4 pages (addr 0xc1ed9000)
+[0m[31;40mmm/slab.c:253 _slab_allocator_grow(): Growing cache "vnode" (0xc1efb34c), new slab 0xc1edcff0 (4 pages)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed9000 from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 1
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e95048 from "pframe" (0xc1efb20c), slab 0xc1efb20c, inuse 2
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1ed5000 (2) into 0xc1ed5000 and 0xc1ed7000
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1ed7000 (1) into 0xc1ed7000 and 0xc1ed8000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1ed8000)
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[33;40mdrivers/disk/ata.c:517 ata_do_operation(): Preparing DMA PRD with data at 0xc1ed8000, 8 sectors (total size 4096), and write 0
+[0m[33;40mdrivers/disk/ata.c:526 ata_do_operation(): Preparing disk with seccount 8, lba0 0x08, lba1 0x00, lba2 0x00
+[0m[33;40mdrivers/disk/ata.c:537 ata_do_operation(): Writing command READ DMA, 0xc8
+[0m[33;40mdrivers/disk/ata.c:547 ata_do_operation(): After command, before start of DMA, disk status is 0xd8
+[0msched_sleep_on: Entered
+Enqueuing
+sched_sleep_on: Calling schedule switch
+[33;40mdrivers/disk/ata.c:330 ata_intr_wrapper(): ATA interrupt
+[0m[33;40mdrivers/disk/ata.c:595 ata_intr(): Received interrupt w/ intr number 208, error code 0, for channel 0, drive 0
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: and it was a valid thread
+sched_wakeup_on: making it runnable
+sched_make_runnable: Making thread runnable
+sched_wakeup_on: returning
+[33;40mdrivers/disk/ata.c:559 ata_do_operation(): ATA status: 0x50
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;35;40mmm/pframe.c:404 pframe_pin(): pframe_pin: page 1 of obj c1ee5158 becoming PINNED
+[0m[0mutil/init.c:63 _init_call(): Calling binfmt_init (0xc0021c03)
+[0m[0mutil/init.c:51 _init_call(): 'elf32_init' depends on 'binfmt_init': [0m[0malready called
+[0m[0mutil/init.c:63 _init_call(): Calling elf32_init (0xc0024189)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa780 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 25
+[0m[1;31;40mapi/binfmt.c:36 binfmt_add(): Registering binary loader ELF32
+[0m[0mutil/init.c:63 _init_call(): Calling syscall_init (0xc0024711)
+[0m[0mutil/init.c:63 _init_call(): Calling kshell_init (0xc0027c58)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee5240 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 5
+[0m[31;40mtest/kshell/kshell.c:64 kshell_add_command(): Added help command
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee52d0 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 6
+[0m[31;40mtest/kshell/kshell.c:64 kshell_add_command(): Added echo command
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee5360 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 7
+[0m[31;40mtest/kshell/kshell.c:64 kshell_add_command(): Added cat command
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee53f0 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 8
+[0m[31;40mtest/kshell/kshell.c:64 kshell_add_command(): Added ls command
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee5480 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 9
+[0m[31;40mtest/kshell/kshell.c:64 kshell_add_command(): Added cd command
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee5510 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 10
+[0m[31;40mtest/kshell/kshell.c:64 kshell_add_command(): Added rm command
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee55a0 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 11
+[0m[31;40mtest/kshell/kshell.c:64 kshell_add_command(): Added link command
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee5630 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 12
+[0m[31;40mtest/kshell/kshell.c:64 kshell_add_command(): Added rmdir command
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee56c0 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 13
+[0m[31;40mtest/kshell/kshell.c:64 kshell_add_command(): Added mkdir command
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee5750 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 14
+[0m[31;40mtest/kshell/kshell.c:64 kshell_add_command(): Added stat command
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee57e0 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 15
+[0m[31;40mtest/kshell/kshell.c:64 kshell_add_command(): Added exit command
+[0m[0mutil/init.c:51 _init_call(): 'pageoutd_init' depends on 'sched_init': [0m[0malready called
+[0m[0mutil/init.c:63 _init_call(): Calling pageoutd_init (0xc004012e)
+[0mproc_create: Allocating proc data-structures
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee33c0 from "proc" (0xc1efb2d4), slab 0xc1efb2d4, inuse 3
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 2 pages (addr 0xc1ed5000)
+[0m
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9004, 0xc1ee51b8 ino 0 up to 2, nrespages=0
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1edf038 from "vmmap" (0xc1efb284), slab 0xc1efb284, inuse 3
+[0m[0mvm/vmmap.c:60 vmmap_create(): VMMAP_CREATE: KASSERT map!=NULL executed successfully
+[0m[0mvm/vmmap.c:63 vmmap_create(): VMMAP_CREATE: Successfully initialized
+[0mproc_create: proc created
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ec50a8 from "kthread" (0xc1efb2fc), slab 0xc1efb2fc, inuse 3
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e75000 (5) into 0xc1e75000 and 0xc1e85000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 16 pages (addr 0xc1e85000)
+[0mkthread_create: thread data structures created
+kthread_create: Context setup successful
+sched_make_runnable: Making thread runnable
+[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1efa320 from "size-64" (0xc1efb004), slab 0xc1efaff0, inuse 24
+[0m[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1efa370 from "size-64" (0xc1efb004), slab 0xc1efaff0, inuse 23
+[0m[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1efa410 from "size-64" (0xc1efb004), slab 0xc1efaff0, inuse 22
+[0m[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1efa460 from "size-64" (0xc1efb004), slab 0xc1efaff0, inuse 21
+[0m[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1efa3c0 from "size-64" (0xc1efb004), slab 0xc1efaff0, inuse 20
+[0m[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1efa4b0 from "size-64" (0xc1efb004), slab 0xc1efaff0, inuse 19
+[0m[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1efa500 from "size-64" (0xc1efb004), slab 0xc1efaff0, inuse 18
+[0m[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1efa5a0 from "size-64" (0xc1efb004), slab 0xc1efaff0, inuse 17
+[0m[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1efa550 from "size-64" (0xc1efb004), slab 0xc1efaff0, inuse 16
+[0m[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1efa5f0 from "size-64" (0xc1efb004), slab 0xc1efaff0, inuse 15
+[0m[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1efa640 from "size-64" (0xc1efb004), slab 0xc1efaff0, inuse 14
+[0m[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1efa6e0 from "size-64" (0xc1efb004), slab 0xc1efaff0, inuse 13
+[0m[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1efa690 from "size-64" (0xc1efb004), slab 0xc1efaff0, inuse 12
+[0m[0mmain/kmain.c:198 idleproc_run(): creating directories.............................................[0m[0mmain/kmain.c:200 idleproc_run(): vfs_root_vn is not null.............................................[0m[0mmain/kmain.c:203 idleproc_run(): curproc i.e. idleproc cwd is not null.............................................[0m
+
+vref: refcount: 2..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9004, 0xc1ee51b8 ino 0 up to 3, nrespages=0
+[0m[0mfs/namev.c:96 dir_namev(): DIR_NAMEV: Entered dir_namev, pathname = /dev
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 3..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9004, 0xc1ee51b8 ino 0 up to 4, nrespages=0
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9004, 0xc1ee51b8 ino 0, down to 3, nrespages = 0
+[0m
+*********entered lookup*********** dev ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 3..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9004, 0xc1ee51b8 ino 0 up to 4, nrespages=0
+[0m
+*********calling dir lookup*********** dev ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 0 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up dev len = 3
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e95090 from "pframe" (0xc1efb20c), slab 0xc1efb20c, inuse 3
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1ed7000)
+[0m
+
+vref: refcount: 4..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9004, 0xc1ee51b8 ino 0 up to 5, nrespages=0
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[33;40mdrivers/disk/ata.c:517 ata_do_operation(): Preparing DMA PRD with data at 0xc1ed7000, 8 sectors (total size 4096), and write 0
+[0m[33;40mdrivers/disk/ata.c:526 ata_do_operation(): Preparing disk with seccount 8, lba0 0xf8, lba1 0x1f, lba2 0x00
+[0m[33;40mdrivers/disk/ata.c:537 ata_do_operation(): Writing command READ DMA, 0xc8
+[0m[33;40mdrivers/disk/ata.c:547 ata_do_operation(): After command, before start of DMA, disk status is 0xd8
+[0msched_sleep_on: Entered
+Enqueuing
+sched_sleep_on: Calling schedule switch
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;35;40mmm/pframe.c:688 pageoutd_run(): PAGEOUT DEMAON: Falling asleep
+[0m[1;35;40mmm/pframe.c:692 pageoutd_run(): PAGEOUT DEMAON: nfreepages_target=|3907| nfreepages_min=|0| page_free_count=|7696|
+[0msched_cancellable_sleep_on: Entered
+[33;40mdrivers/disk/ata.c:330 ata_intr_wrapper(): ATA interrupt
+[0m[33;40mdrivers/disk/ata.c:595 ata_intr(): Received interrupt w/ intr number 208, error code 0, for channel 0, drive 0
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: and it was a valid thread
+sched_wakeup_on: making it runnable
+sched_make_runnable: Making thread runnable
+sched_wakeup_on: returning
+[33;40mdrivers/disk/ata.c:559 ata_do_operation(): ATA status: 0x50
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9004, 0xc1ee51b8 ino 0, down to 4, nrespages = 1
+[0m
+*********LOOKUP*********** dev ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* dev ****************************************
+kmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:660 s5fs_mkdir(): [0]: mkdir
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs_subr.c:200 lock_s5(): [0]: s5 mutex locked
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs_subr.c:214 unlock_s5(): [0]: s5 mutex unlocked
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed907c from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 2
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e950d8 from "pframe" (0xc1efb20c), slab 0xc1efb20c, inuse 4
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e75000 (4) into 0xc1e75000 and 0xc1e7d000
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e7d000 (3) into 0xc1e7d000 and 0xc1e81000
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e81000 (2) into 0xc1e81000 and 0xc1e83000
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e83000 (1) into 0xc1e83000 and 0xc1e84000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1e84000)
+[0m
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=0
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+kmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs_subr.c:200 lock_s5(): [0]: s5 mutex locked
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs_subr.c:214 unlock_s5(): [0]: s5 mutex unlocked
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m[1;31;40mfs/s5fs/s5fs.c:726 s5fs_mkdir(): [0]: mkdir done
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+
+DO_MKDIR: Mkdir success! Returning with values: vnode 0 refcount 4
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[0mfs/namev.c:96 dir_namev(): DIR_NAMEV: Entered dir_namev, pathname = /dev/null
+[0m[0mfs/namev.c:123 dir_namev(): Call..........pathname: /null
+[0m
+*********entered lookup*********** dev/null ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 4..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9004, 0xc1ee51b8 ino 0 up to 5, nrespages=1
+[0m
+*********calling dir lookup*********** dev/null ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=5 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up dev/null len = 3
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:574 s5fs_lookup(): In s5fs_lookup: Found num = 31
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9004, 0xc1ee51b8 ino 0, down to 4, nrespages = 1
+[0m
+*********LOOKUP*********** dev/null ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* dev/null ****************************************
+[0mfs/namev.c:128 dir_namev(): 
+
+calling vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m[0mfs/namev.c:132 dir_namev(): 
+
+returned vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0m
+*********entered lookup*********** null ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 2..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 3, nrespages=1
+[0m
+*********calling dir lookup*********** null ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=3 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up null len = 4
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 2, nrespages = 1
+[0m
+*********LOOKUP*********** null ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* null ****************************************
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m[0mfs/vfs_syscall.c:282 do_mknod(): 
+DO_MKNOD: Creating Node..[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+kmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs_subr.c:200 lock_s5(): [0]: s5 mutex locked
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e95120 from "pframe" (0xc1efb20c), slab 0xc1efb20c, inuse 5
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1e83000)
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[33;40mdrivers/disk/ata.c:517 ata_do_operation(): Preparing DMA PRD with data at 0xc1e83000, 8 sectors (total size 4096), and write 0
+[0m[33;40mdrivers/disk/ata.c:526 ata_do_operation(): Preparing disk with seccount 8, lba0 0x10, lba1 0x00, lba2 0x00
+[0m[33;40mdrivers/disk/ata.c:537 ata_do_operation(): Writing command READ DMA, 0xc8
+[0m[33;40mdrivers/disk/ata.c:547 ata_do_operation(): After command, before start of DMA, disk status is 0xd8
+[0msched_sleep_on: Entered
+Enqueuing
+sched_sleep_on: Calling schedule switch
+[33;40mdrivers/disk/ata.c:330 ata_intr_wrapper(): ATA interrupt
+[0m[33;40mdrivers/disk/ata.c:595 ata_intr(): Received interrupt w/ intr number 208, error code 0, for channel 0, drive 0
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: and it was a valid thread
+sched_wakeup_on: making it runnable
+sched_make_runnable: Making thread runnable
+sched_wakeup_on: returning
+[33;40mdrivers/disk/ata.c:559 ata_do_operation(): ATA status: 0x50
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;35;40mmm/pframe.c:404 pframe_pin(): pframe_pin: page 2 of obj c1ee5158 becoming PINNED
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;35;40mmm/pframe.c:434 pframe_unpin(): page 2 of obj c1ee5158 becoming UNPINNED
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs_subr.c:214 unlock_s5(): [0]: s5 mutex unlocked
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed90f8 from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 3
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;35;40mmm/pframe.c:404 pframe_pin(): pframe_pin: page 2 of obj c1ee5158 becoming PINNED
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed90fc, 0xc1ee51b8 ino 32, down to 0, nrespages = 0
+[0m[1;35;40mmm/pframe.c:434 pframe_unpin(): page 2 of obj c1ee5158 becoming UNPINNED
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1ed90f8 from "vnode" (0xc1efb34c), slab 0xc1edcff0, inuse 2
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[0mfs/namev.c:96 dir_namev(): DIR_NAMEV: Entered dir_namev, pathname = /dev/zero
+[0m[0mfs/namev.c:123 dir_namev(): Call..........pathname: /zero
+[0m
+*********entered lookup*********** dev/zero ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 4..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9004, 0xc1ee51b8 ino 0 up to 5, nrespages=1
+[0m
+*********calling dir lookup*********** dev/zero ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=5 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up dev/zero len = 3
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:574 s5fs_lookup(): In s5fs_lookup: Found num = 31
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9004, 0xc1ee51b8 ino 0, down to 4, nrespages = 1
+[0m
+*********LOOKUP*********** dev/zero ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* dev/zero ****************************************
+[0mfs/namev.c:128 dir_namev(): 
+
+calling vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m[0mfs/namev.c:132 dir_namev(): 
+
+returned vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0m
+*********entered lookup*********** zero ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 2..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 3, nrespages=1
+[0m
+*********calling dir lookup*********** zero ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=3 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up zero len = 4
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 2, nrespages = 1
+[0m
+*********LOOKUP*********** zero ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* zero ****************************************
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m[0mfs/vfs_syscall.c:282 do_mknod(): 
+DO_MKNOD: Creating Node..[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+kmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs_subr.c:200 lock_s5(): [0]: s5 mutex locked
+[0m[1;35;40mmm/pframe.c:404 pframe_pin(): pframe_pin: page 2 of obj c1ee5158 becoming PINNED
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;35;40mmm/pframe.c:434 pframe_unpin(): page 2 of obj c1ee5158 becoming UNPINNED
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs_subr.c:214 unlock_s5(): [0]: s5 mutex unlocked
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed90f8 from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 3
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;35;40mmm/pframe.c:404 pframe_pin(): pframe_pin: page 2 of obj c1ee5158 becoming PINNED
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed90fc, 0xc1ee51b8 ino 33, down to 0, nrespages = 0
+[0m[1;35;40mmm/pframe.c:434 pframe_unpin(): page 2 of obj c1ee5158 becoming UNPINNED
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1ed90f8 from "vnode" (0xc1efb34c), slab 0xc1edcff0, inuse 2
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[0mfs/namev.c:96 dir_namev(): DIR_NAMEV: Entered dir_namev, pathname = /dev/tty0
+[0m[0mfs/namev.c:123 dir_namev(): Call..........pathname: /tty0
+[0m
+*********entered lookup*********** dev/tty0 ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 4..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9004, 0xc1ee51b8 ino 0 up to 5, nrespages=1
+[0m
+*********calling dir lookup*********** dev/tty0 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=5 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up dev/tty0 len = 3
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:574 s5fs_lookup(): In s5fs_lookup: Found num = 31
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9004, 0xc1ee51b8 ino 0, down to 4, nrespages = 1
+[0m
+*********LOOKUP*********** dev/tty0 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* dev/tty0 ****************************************
+[0mfs/namev.c:128 dir_namev(): 
+
+calling vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m[0mfs/namev.c:132 dir_namev(): 
+
+returned vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0m
+*********entered lookup*********** tty0 ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 2..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 3, nrespages=1
+[0m
+*********calling dir lookup*********** tty0 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=3 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up tty0 len = 4
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 2, nrespages = 1
+[0m
+*********LOOKUP*********** tty0 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* tty0 ****************************************
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m[0mfs/vfs_syscall.c:282 do_mknod(): 
+DO_MKNOD: Creating Node..[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+kmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs_subr.c:200 lock_s5(): [0]: s5 mutex locked
+[0m[1;35;40mmm/pframe.c:404 pframe_pin(): pframe_pin: page 2 of obj c1ee5158 becoming PINNED
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;35;40mmm/pframe.c:434 pframe_unpin(): page 2 of obj c1ee5158 becoming UNPINNED
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs_subr.c:214 unlock_s5(): [0]: s5 mutex unlocked
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed90f8 from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 3
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;35;40mmm/pframe.c:404 pframe_pin(): pframe_pin: page 2 of obj c1ee5158 becoming PINNED
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed90fc, 0xc1ee51b8 ino 34, down to 0, nrespages = 0
+[0m[1;35;40mmm/pframe.c:434 pframe_unpin(): page 2 of obj c1ee5158 becoming UNPINNED
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1ed90f8 from "vnode" (0xc1efb34c), slab 0xc1edcff0, inuse 2
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[0mfs/namev.c:96 dir_namev(): DIR_NAMEV: Entered dir_namev, pathname = /dev/kvm
+[0m[0mfs/namev.c:123 dir_namev(): Call..........pathname: /kvm
+[0m
+*********entered lookup*********** dev/kvm ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 4..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9004, 0xc1ee51b8 ino 0 up to 5, nrespages=1
+[0m
+*********calling dir lookup*********** dev/kvm ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=5 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up dev/kvm len = 3
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:574 s5fs_lookup(): In s5fs_lookup: Found num = 31
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9004, 0xc1ee51b8 ino 0, down to 4, nrespages = 1
+[0m
+*********LOOKUP*********** dev/kvm ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* dev/kvm ****************************************
+[0mfs/namev.c:128 dir_namev(): 
+
+calling vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m[0mfs/namev.c:132 dir_namev(): 
+
+returned vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m
+*********entered lookup*********** kvm ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0m
+*********calling dir lookup*********** kvm ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up kvm len = 3
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m
+*********LOOKUP*********** kvm ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* kvm ****************************************
+kmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:660 s5fs_mkdir(): [0]: mkdir
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs_subr.c:200 lock_s5(): [0]: s5 mutex locked
+[0m[1;35;40mmm/pframe.c:404 pframe_pin(): pframe_pin: page 2 of obj c1ee5158 becoming PINNED
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;35;40mmm/pframe.c:434 pframe_unpin(): page 2 of obj c1ee5158 becoming UNPINNED
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs_subr.c:214 unlock_s5(): [0]: s5 mutex unlocked
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed90f8 from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 3
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;35;40mmm/pframe.c:404 pframe_pin(): pframe_pin: page 2 of obj c1ee5158 becoming PINNED
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e95168 from "pframe" (0xc1efb20c), slab 0xc1efb20c, inuse 6
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e81000 (1) into 0xc1e81000 and 0xc1e82000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1e82000)
+[0m
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed90fc, 0xc1ee51b8 ino 35 up to 2, nrespages=0
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+kmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs_subr.c:200 lock_s5(): [0]: s5 mutex locked
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs_subr.c:214 unlock_s5(): [0]: s5 mutex unlocked
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed90fc, 0xc1ee51b8 ino 35, down to 1, nrespages = 1
+[0m[1;31;40mfs/s5fs/s5fs.c:726 s5fs_mkdir(): [0]: mkdir done
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+
+DO_MKDIR: Mkdir success! Returning with values: vnode 31 refcount 1
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[0mfs/namev.c:96 dir_namev(): DIR_NAMEV: Entered dir_namev, pathname = /dev/test
+[0m[0mfs/namev.c:123 dir_namev(): Call..........pathname: /test
+[0m
+*********entered lookup*********** dev/test ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 4..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9004, 0xc1ee51b8 ino 0 up to 5, nrespages=1
+[0m
+*********calling dir lookup*********** dev/test ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=5 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up dev/test len = 3
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:574 s5fs_lookup(): In s5fs_lookup: Found num = 31
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9004, 0xc1ee51b8 ino 0, down to 4, nrespages = 1
+[0m
+*********LOOKUP*********** dev/test ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* dev/test ****************************************
+[0mfs/namev.c:128 dir_namev(): 
+
+calling vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m[0mfs/namev.c:132 dir_namev(): 
+
+returned vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m
+*********entered lookup*********** test ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0m
+*********calling dir lookup*********** test ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up test len = 4
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m
+*********LOOKUP*********** test ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* test ****************************************
+kmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:660 s5fs_mkdir(): [0]: mkdir
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs_subr.c:200 lock_s5(): [0]: s5 mutex locked
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs_subr.c:214 unlock_s5(): [0]: s5 mutex unlocked
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed9174 from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 4
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e951b0 from "pframe" (0xc1efb20c), slab 0xc1efb20c, inuse 7
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1e81000)
+[0m
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9178, 0xc1ee51b8 ino 36 up to 2, nrespages=0
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+kmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs_subr.c:200 lock_s5(): [0]: s5 mutex locked
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs_subr.c:214 unlock_s5(): [0]: s5 mutex unlocked
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9178, 0xc1ee51b8 ino 36, down to 1, nrespages = 1
+[0m[1;31;40mfs/s5fs/s5fs.c:726 s5fs_mkdir(): [0]: mkdir done
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+
+DO_MKDIR: Mkdir success! Returning with values: vnode 31 refcount 1
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[0mfs/namev.c:96 dir_namev(): DIR_NAMEV: Entered dir_namev, pathname = /dev/test/test1
+[0m[0mfs/namev.c:123 dir_namev(): Call..........pathname: /test/test1
+[0m
+*********entered lookup*********** dev/test/test1 ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 4..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9004, 0xc1ee51b8 ino 0 up to 5, nrespages=1
+[0m
+*********calling dir lookup*********** dev/test/test1 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=5 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up dev/test/test1 len = 3
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:574 s5fs_lookup(): In s5fs_lookup: Found num = 31
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9004, 0xc1ee51b8 ino 0, down to 4, nrespages = 1
+[0m
+*********LOOKUP*********** dev/test/test1 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* dev/test/test1 ****************************************
+[0mfs/namev.c:128 dir_namev(): 
+
+calling vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m[0mfs/namev.c:132 dir_namev(): 
+
+returned vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[0mfs/namev.c:123 dir_namev(): Call..........pathname: /test1
+[0m
+*********entered lookup*********** test/test1 ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0m
+*********calling dir lookup*********** test/test1 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up test/test1 len = 4
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:574 s5fs_lookup(): In s5fs_lookup: Found num = 36
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9178, 0xc1ee51b8 ino 36 up to 2, nrespages=1
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m
+*********LOOKUP*********** test/test1 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 36 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* test/test1 ****************************************
+[0mfs/namev.c:128 dir_namev(): 
+
+calling vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 36 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9178, 0xc1ee51b8 ino 36, down to 1, nrespages = 1
+[0m[0mfs/namev.c:132 dir_namev(): 
+
+returned vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9178, 0xc1ee51b8 ino 36 up to 2, nrespages=1
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9178, 0xc1ee51b8 ino 36, down to 1, nrespages = 1
+[0m
+*********entered lookup*********** test1 ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9178, 0xc1ee51b8 ino 36 up to 2, nrespages=1
+[0m
+*********calling dir lookup*********** test1 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 36 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up test1 len = 5
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9178, 0xc1ee51b8 ino 36, down to 1, nrespages = 1
+[0m
+*********LOOKUP*********** test1 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* test1 ****************************************
+kmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:660 s5fs_mkdir(): [0]: mkdir
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs_subr.c:200 lock_s5(): [0]: s5 mutex locked
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs_subr.c:214 unlock_s5(): [0]: s5 mutex unlocked
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed91f0 from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 5
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e951f8 from "pframe" (0xc1efb20c), slab 0xc1efb20c, inuse 8
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e7d000 (2) into 0xc1e7d000 and 0xc1e7f000
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e7f000 (1) into 0xc1e7f000 and 0xc1e80000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1e80000)
+[0m
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed91f4, 0xc1ee51b8 ino 37 up to 2, nrespages=0
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+kmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs_subr.c:200 lock_s5(): [0]: s5 mutex locked
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs_subr.c:214 unlock_s5(): [0]: s5 mutex unlocked
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed91f4, 0xc1ee51b8 ino 37, down to 1, nrespages = 1
+[0m[1;31;40mfs/s5fs/s5fs.c:726 s5fs_mkdir(): [0]: mkdir done
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+
+DO_MKDIR: Mkdir success! Returning with values: vnode 36 refcount 1
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[0mfs/namev.c:96 dir_namev(): DIR_NAMEV: Entered dir_namev, pathname = /dev/test/test2
+[0m[0mfs/namev.c:123 dir_namev(): Call..........pathname: /test/test2
+[0m
+*********entered lookup*********** dev/test/test2 ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 4..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9004, 0xc1ee51b8 ino 0 up to 5, nrespages=1
+[0m
+*********calling dir lookup*********** dev/test/test2 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=5 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up dev/test/test2 len = 3
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:574 s5fs_lookup(): In s5fs_lookup: Found num = 31
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9004, 0xc1ee51b8 ino 0, down to 4, nrespages = 1
+[0m
+*********LOOKUP*********** dev/test/test2 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* dev/test/test2 ****************************************
+[0mfs/namev.c:128 dir_namev(): 
+
+calling vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m[0mfs/namev.c:132 dir_namev(): 
+
+returned vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[0mfs/namev.c:123 dir_namev(): Call..........pathname: /test2
+[0m
+*********entered lookup*********** test/test2 ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9080, 0xc1ee51b8 ino 31 up to 2, nrespages=1
+[0m
+*********calling dir lookup*********** test/test2 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 31 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up test/test2 len = 4
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:574 s5fs_lookup(): In s5fs_lookup: Found num = 36
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9178, 0xc1ee51b8 ino 36 up to 2, nrespages=1
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9080, 0xc1ee51b8 ino 31, down to 1, nrespages = 1
+[0m
+*********LOOKUP*********** test/test2 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 36 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* test/test2 ****************************************
+[0mfs/namev.c:128 dir_namev(): 
+
+calling vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 36 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9178, 0xc1ee51b8 ino 36, down to 1, nrespages = 1
+[0m[0mfs/namev.c:132 dir_namev(): 
+
+returned vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9178, 0xc1ee51b8 ino 36 up to 2, nrespages=1
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9178, 0xc1ee51b8 ino 36, down to 1, nrespages = 1
+[0m
+*********entered lookup*********** test2 ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9178, 0xc1ee51b8 ino 36 up to 2, nrespages=1
+[0m
+*********calling dir lookup*********** test2 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 36 mode 200 device 0 flags 0 is still in use with refcount=2 and 1 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up test2 len = 5
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9178, 0xc1ee51b8 ino 36, down to 1, nrespages = 1
+[0m
+*********LOOKUP*********** test2 ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* test2 ****************************************
+kmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:660 s5fs_mkdir(): [0]: mkdir
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs_subr.c:200 lock_s5(): [0]: s5 mutex locked
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs_subr.c:214 unlock_s5(): [0]: s5 mutex unlocked
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed926c from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 6
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e95240 from "pframe" (0xc1efb20c), slab 0xc1efb20c, inuse 9
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1e7f000)
+[0m
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9270, 0xc1ee51b8 ino 38 up to 2, nrespages=0
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+kmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs_subr.c:200 lock_s5(): [0]: s5 mutex locked
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs_subr.c:214 unlock_s5(): [0]: s5 mutex unlocked
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9270, 0xc1ee51b8 ino 38, down to 1, nrespages = 1
+[0m[1;31;40mfs/s5fs/s5fs.c:726 s5fs_mkdir(): [0]: mkdir done
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+
+DO_MKDIR: Mkdir success! Returning with values: vnode 36 refcount 1
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********idle proc**************************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********idle proc***********************************************************
+sched_make_runnable: Making thread runnable
+sched_sleep_on: Entered
+Enqueuing
+sched_sleep_on: Calling schedule switch
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1efa690 from "size-64" (0xc1efb004), slab 0xc1efb004, inuse 13
+[0m[0mmain/kmain.c:549 initproc_run(): 
+InitProc_run: User Test output start here[0mTEST CASE SEGFAULT---Kernel_execve(segfault)[1;31;40mapi/exec.c:54 kernel_execve(): ************************************************enter enter
+[0m[0mapi/binfmt.c:47 binfmt_load(): 
+
+
+
+
+
+
+
+entered binfmt_load
+
+
+
+
+
+
+
+
+[0m[0mfs/open.c:77 do_open(): Kernel2:SysMsg: begin do_open(), filename =/usr/bin/segfault
+[0m[0mfs/open.c:107 do_open(): 
+
+
+getting file descriptor 
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e7d000 (1) into 0xc1e7d000 and 0xc1e7e000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1e7e000)
+[0m[31;40mmm/slab.c:253 _slab_allocator_grow(): Growing cache "file" (0xc1efb324), new slab 0xc1e7efe0 (1 pages)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e7e000 from "file" (0xc1efb324), slab 0xc1efb324, inuse 1
+[0m[35;40mfs/file.c:49 fref(): fref: 0xc1e7e004 up to 1
+[0m[0mfs/open.c:126 do_open(): 
+
+
+calling open_namev 
+[0m[0mfs/namev.c:96 dir_namev(): DIR_NAMEV: Entered dir_namev, pathname = /usr/bin/segfault
+[0m[0mfs/namev.c:123 dir_namev(): Call..........pathname: /bin/segfault
+[0m
+*********entered lookup*********** usr/bin/segfault ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+
+
+vref: refcount: 4..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9004, 0xc1ee51b8 ino 0 up to 5, nrespages=1
+[0m
+*********calling dir lookup*********** usr/bin/segfault ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=5 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up usr/bin/segfault len = 3
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[1;31;40mfs/s5fs/s5fs.c:574 s5fs_lookup(): In s5fs_lookup: Found num = 3
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed92e8 from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 7
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9004, 0xc1ee51b8 ino 0, down to 4, nrespages = 1
+[0m
+*********LOOKUP*********** usr/bin/segfault ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 3 mode 200 device 0 flags 0 is still in use with refcount=1 and 0 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* usr/bin/segfault ****************************************
+[0mfs/namev.c:128 dir_namev(): 
+
+calling vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 3 mode 200 device 0 flags 0 is still in use with refcount=1 and 0 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed92ec, 0xc1ee51b8 ino 3, down to 0, nrespages = 0
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1ed92e8 from "vnode" (0xc1efb34c), slab 0xc1edcff0, inuse 6
+[0m[0mfs/namev.c:132 dir_namev(): 
+
+returned vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[0mfs/namev.c:123 dir_namev(): Call..........pathname: /segfault
+[0m
+*********entered lookup*********** bin/segfault ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed92e8 from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 7
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+
+*********calling dir lookup*********** bin/segfault ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 3 mode 200 device 0 flags 0 is still in use with refcount=1 and 0 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up bin/segfault len = 3
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e95288 from "pframe" (0xc1efb20c), slab 0xc1efb20c, inuse 10
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1e7d000)
+[0m
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed92ec, 0xc1ee51b8 ino 3 up to 2, nrespages=0
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[33;40mdrivers/disk/ata.c:517 ata_do_operation(): Preparing DMA PRD with data at 0xc1e7d000, 8 sectors (total size 4096), and write 0
+[0m[33;40mdrivers/disk/ata.c:526 ata_do_operation(): Preparing disk with seccount 8, lba0 0xe0, lba1 0x1f, lba2 0x00
+[0m[33;40mdrivers/disk/ata.c:537 ata_do_operation(): Writing command READ DMA, 0xc8
+[0m[33;40mdrivers/disk/ata.c:547 ata_do_operation(): After command, before start of DMA, disk status is 0xd8
+[0msched_sleep_on: Entered
+Enqueuing
+sched_sleep_on: Calling schedule switch
+[33;40mdrivers/disk/ata.c:330 ata_intr_wrapper(): ATA interrupt
+[0m[33;40mdrivers/disk/ata.c:595 ata_intr(): Received interrupt w/ intr number 208, error code 0, for channel 0, drive 0
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: and it was a valid thread
+sched_wakeup_on: making it runnable
+sched_make_runnable: Making thread runnable
+sched_wakeup_on: returning
+[33;40mdrivers/disk/ata.c:559 ata_do_operation(): ATA status: 0x50
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs.c:574 s5fs_lookup(): In s5fs_lookup: Found num = 10
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed9364 from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 8
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed92ec, 0xc1ee51b8 ino 3, down to 1, nrespages = 1
+[0m
+*********LOOKUP*********** bin/segfault ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 10 mode 200 device 0 flags 0 is still in use with refcount=1 and 0 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* bin/segfault ****************************************
+[0mfs/namev.c:128 dir_namev(): 
+
+calling vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 10 mode 200 device 0 flags 0 is still in use with refcount=1 and 0 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9368, 0xc1ee51b8 ino 10, down to 0, nrespages = 0
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1ed9364 from "vnode" (0xc1efb34c), slab 0xc1edcff0, inuse 7
+[0m[0mfs/namev.c:132 dir_namev(): 
+
+returned vput .....................................[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed9364 from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 8
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[0mfs/namev.c:186 open_namev(): 
+
+retval : 0 
+[0m[0mfs/namev.c:187 open_namev(): 
+
+retval : 0 
+[0m[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9368, 0xc1ee51b8 ino 10, down to 0, nrespages = 0
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[31;40mmm/slab.c:337 slab_obj_free(): Freed object 0xc1ed9364 from "vnode" (0xc1efb34c), slab 0xc1edcff0, inuse 7
+[0m
+*********entered lookup*********** segfault ****************************************
+vget: looking for inuse
+vget: looking for inuse vnode
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed9364 from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 8
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+
+*********calling dir lookup*********** segfault ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 10 mode 200 device 0 flags 0 is still in use with refcount=1 and 0 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m[1;31;40mfs/s5fs/s5fs.c:561 s5fs_lookup(): In s5fs_lookup: Looking up segfault len = 8
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e952d0 from "pframe" (0xc1efb20c), slab 0xc1efb20c, inuse 11
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e75000 (3) into 0xc1e75000 and 0xc1e79000
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e79000 (2) into 0xc1e79000 and 0xc1e7b000
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e7b000 (1) into 0xc1e7b000 and 0xc1e7c000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1e7c000)
+[0m
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed9368, 0xc1ee51b8 ino 10 up to 2, nrespages=0
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[33;40mdrivers/disk/ata.c:517 ata_do_operation(): Preparing DMA PRD with data at 0xc1e7c000, 8 sectors (total size 4096), and write 0
+[0m[33;40mdrivers/disk/ata.c:526 ata_do_operation(): Preparing disk with seccount 8, lba0 0x50, lba1 0x1c, lba2 0x00
+[0m[33;40mdrivers/disk/ata.c:537 ata_do_operation(): Writing command READ DMA, 0xc8
+[0m[33;40mdrivers/disk/ata.c:547 ata_do_operation(): After command, before start of DMA, disk status is 0xd8
+[0msched_sleep_on: Entered
+Enqueuing
+sched_sleep_on: Calling schedule switch
+[33;40mdrivers/disk/ata.c:330 ata_intr_wrapper(): ATA interrupt
+[0m[33;40mdrivers/disk/ata.c:595 ata_intr(): Received interrupt w/ intr number 208, error code 0, for channel 0, drive 0
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: and it was a valid thread
+sched_wakeup_on: making it runnable
+sched_make_runnable: Making thread runnable
+sched_wakeup_on: returning
+[33;40mdrivers/disk/ata.c:559 ata_do_operation(): ATA status: 0x50
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[1;31;40mfs/s5fs/s5fs.c:574 s5fs_lookup(): In s5fs_lookup: Found num = 21
+[0mvget: looking for inuse
+vget: looking for inuse vnode
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ed93e0 from "vnode" (0xc1efb34c), slab 0xc1efb34c, inuse 9
+[0msched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+[36;40mfs/vnode.c:243 vput(): vput: 0xc1ed9368, 0xc1ee51b8 ino 10, down to 1, nrespages = 1
+[0m
+*********LOOKUP*********** segfault ****************************************
+[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 21 mode 800 device 0 flags 0 is still in use with refcount=1 and 0 res pages
+[0m[1;37;40mfs/vnode.c:354 vfs_is_in_use(): Vnode 0 mode 200 device 0 flags 0 is still in use with refcount=4 and 1 res pages
+[0m
+*********LOOKUP******************* segfault ****************************************
+[0mfs/namev.c:203 open_namev(): 
+
+namev.c: open_namev: Leaving open_namev[0m[0mfs/open.c:192 do_open(): 
+
+
+returning from do_open 
+[0m[0mapi/binfmt.c:54 binfmt_load(): 
+opened file
+[0m[35;40mfs/file.c:47 fref(): fref: 0xc1e7e004, 0xc1ee51b8 ino 21, up to 2
+[0m[35;40mfs/file.c:89 fput(): fput: 0xc1e7e004, 0xc1ee51b8 ino 21, down to 1
+[0m[0mapi/binfmt.c:68 binfmt_load(): 
+about to iterate list
+[0m[1;31;40mapi/binfmt.c:71 binfmt_load(): Trying to exec /usr/bin/segfault using binary loader ELF32
+[0m[35;40mfs/file.c:47 fref(): fref: 0xc1e7e004, 0xc1ee51b8 ino 21, up to 2
+[0m[35;40mfs/file.c:47 fref(): fref: 0xc1e7e004, 0xc1ee51b8 ino 21, up to 3
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e95318 from "pframe" (0xc1efb20c), slab 0xc1efb20c, inuse 12
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1e7b000)
+[0m
+
+vref: refcount: 1..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed93e4, 0xc1ee51b8 ino 21 up to 2, nrespages=0
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[33;40mdrivers/disk/ata.c:517 ata_do_operation(): Preparing DMA PRD with data at 0xc1e7b000, 8 sectors (total size 4096), and write 0
+[0m[33;40mdrivers/disk/ata.c:526 ata_do_operation(): Preparing disk with seccount 8, lba0 0xa8, lba1 0x10, lba2 0x00
+[0m[33;40mdrivers/disk/ata.c:537 ata_do_operation(): Writing command READ DMA, 0xc8
+[0m[33;40mdrivers/disk/ata.c:547 ata_do_operation(): After command, before start of DMA, disk status is 0xd8
+[0msched_sleep_on: Entered
+Enqueuing
+sched_sleep_on: Calling schedule switch
+[33;40mdrivers/disk/ata.c:330 ata_intr_wrapper(): ATA interrupt
+[0m[33;40mdrivers/disk/ata.c:595 ata_intr(): Received interrupt w/ intr number 208, error code 0, for channel 0, drive 0
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: and it was a valid thread
+sched_wakeup_on: making it runnable
+sched_make_runnable: Making thread runnable
+sched_wakeup_on: returning
+[33;40mdrivers/disk/ata.c:559 ata_do_operation(): ATA status: 0x50
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_broadcast_on: Entering the broadcast queue to wake up threads.
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+
+
+Calling fput from do_read...............
+
+[35;40mfs/file.c:89 fput(): fput: 0xc1e7e004, 0xc1ee51b8 ino 21, down to 2
+[0m[1;32;40mapi/elf32.c:160 _elf32_load_ehdr(): loading ELF file
+[0m[1;32;40mELF Header Information:
+[0m[1;32;40mVersion: 1
+[0m[1;32;40mClass:   1
+[0m[1;32;40mData:    1
+[0m[1;32;40mType:    2
+[0m[1;32;40mMachine: 3
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1edf054 from "vmmap" (0xc1efb284), slab 0xc1efb284, inuse 4
+[0m[0mvm/vmmap.c:60 vmmap_create(): VMMAP_CREATE: KASSERT map!=NULL executed successfully
+[0m[0mvm/vmmap.c:63 vmmap_create(): VMMAP_CREATE: Successfully initialized
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1ee5870 from "size-128" (0xc1efb02c), slab 0xc1efb02c, inuse 16
+[0m[0mfs/vfs_syscall.c:771 do_lseek(): 
+do_lseek: Entered[0m[35;40mfs/file.c:47 fref(): fref: 0xc1e7e004, 0xc1ee51b8 ino 21, up to 3
+[0m[35;40mfs/file.c:89 fput(): fput: 0xc1e7e004, 0xc1ee51b8 ino 21, down to 2
+[0m[0mfs/vfs_syscall.c:806 do_lseek(): 
+do_lseek: Leaving function..[0m[35;40mfs/file.c:47 fref(): fref: 0xc1e7e004, 0xc1ee51b8 ino 21, up to 3
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+sched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: returning
+
+
+Calling fput from do_read...............
+
+[35;40mfs/file.c:89 fput(): fput: 0xc1e7e004, 0xc1ee51b8 ino 21, down to 2
+[0m[1;32;40mapi/elf32.c:56 _elf32_map_segment(): Mapping program segment: type 0x1, offset 0x000000, vaddr 0x8048000, filesz 0x5470, memsz 0x5470, flags 0x5, align 0x1000
+[0m[0mvm/vmmap.c:554 vmmap_is_range_empty(): VMMAP_IS_RANGE_EMPTY: KASSERT((startvfn < startvfn+npages) && (ADDR_TO_PN(USER_MEM_LOW) <= startvfn) && (ADDR_TO_PN(USER_MEM_HIGH) >= startvfn+npages)) executed successfully.
+[0m[0mvm/vmmap.c:559 vmmap_is_range_empty(): VMMAP_IS_RANGE_EMPTY: Range found to be empty since list is empty. Returning.
+[0m[0mvm/vmmap.c:321 vmmap_map(): VMMAP_MAP: KASSERT(off is page aligned) executed successfully
+[0m[0mvm/vmmap.c:325 vmmap_map(): VMMAP_MAP: KASSERT(NULL != map) executed successfully
+[0m[0mvm/vmmap.c:329 vmmap_map(): VMMAP_MAP: KASSERT(0 < npages) executed successfully
+[0m[0mvm/vmmap.c:333 vmmap_map(): VMMAP_MAP: KASSERT(!(~(PROT_NONE | PROT_READ | PROT_WRITE | PROT_EXEC) & prot)) executed successfully
+[0m[0mvm/vmmap.c:337 vmmap_map(): VMMAP_MAP: KASSERT((MAP_SHARED & flags) || (MAP_PRIVATE & flags)) executed successfully
+[0m[0mvm/vmmap.c:341 vmmap_map(): VMMAP_MAP: KASSERT((0 == lopage) || (ADDR_TO_PN(USER_MEM_LOW) <= lopage)) executed successfully
+[0m[0mvm/vmmap.c:345 vmmap_map(): VMMAP_MAP: KASSERT((0 == lopage) || (ADDR_TO_PN(USER_MEM_HIGH) >= (lopage + npages))) executed successfully
+[0m[0mvm/vmmap.c:349 vmmap_map(): VMMAP_MAP: KASSERT(PAGE_ALIGNED(off)) executed successfully
+[0m[0mvm/vmmap.c:363 vmmap_map(): 
+...calling vmmap lookup from vmmap_map..
+[0m[0mvm/vmmap.c:224 vmmap_lookup(): VMMAP_LOOKUP: KASSERT(NULL!=map) executed successfully
+[0m[0mvm/vmmap.c:240 vmmap_lookup(): VMMAP_LOOKUP: The given vfn 32840 does not belong to this map
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e79000 (1) into 0xc1e79000 and 0xc1e7a000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1e7a000)
+[0m[31;40mmm/slab.c:253 _slab_allocator_grow(): Growing cache "vmarea" (0xc1efb2ac), new slab 0xc1e7aff0 (1 pages)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e7a000 from "vmarea" (0xc1efb2ac), slab 0xc1efb2ac, inuse 1
+[0m
+
+vref: refcount: 2..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed93e4, 0xc1ee51b8 ino 21 up to 3, nrespages=1
+[0m[0mvm/vmmap.c:406 vmmap_map(): VMMAP_MAP: Returning successfully
+[0m[1;32;40mapi/elf32.c:56 _elf32_map_segment(): Mapping program segment: type 0x1, offset 0x005470, vaddr 0x804e470, filesz 0x1c, memsz 0x13c, flags 0x6, align 0x1000
+[0m[0mvm/vmmap.c:554 vmmap_is_range_empty(): VMMAP_IS_RANGE_EMPTY: KASSERT((startvfn < startvfn+npages) && (ADDR_TO_PN(USER_MEM_LOW) <= startvfn) && (ADDR_TO_PN(USER_MEM_HIGH) >= startvfn+npages)) executed successfully.
+[0m[0mvm/vmmap.c:559 vmmap_is_range_empty(): VMMAP_IS_RANGE_EMPTY: Range found to be empty since list is empty. Returning.
+[0m[0mvm/vmmap.c:321 vmmap_map(): VMMAP_MAP: KASSERT(off is page aligned) executed successfully
+[0m[0mvm/vmmap.c:325 vmmap_map(): VMMAP_MAP: KASSERT(NULL != map) executed successfully
+[0m[0mvm/vmmap.c:329 vmmap_map(): VMMAP_MAP: KASSERT(0 < npages) executed successfully
+[0m[0mvm/vmmap.c:333 vmmap_map(): VMMAP_MAP: KASSERT(!(~(PROT_NONE | PROT_READ | PROT_WRITE | PROT_EXEC) & prot)) executed successfully
+[0m[0mvm/vmmap.c:337 vmmap_map(): VMMAP_MAP: KASSERT((MAP_SHARED & flags) || (MAP_PRIVATE & flags)) executed successfully
+[0m[0mvm/vmmap.c:341 vmmap_map(): VMMAP_MAP: KASSERT((0 == lopage) || (ADDR_TO_PN(USER_MEM_LOW) <= lopage)) executed successfully
+[0m[0mvm/vmmap.c:345 vmmap_map(): VMMAP_MAP: KASSERT((0 == lopage) || (ADDR_TO_PN(USER_MEM_HIGH) >= (lopage + npages))) executed successfully
+[0m[0mvm/vmmap.c:349 vmmap_map(): VMMAP_MAP: KASSERT(PAGE_ALIGNED(off)) executed successfully
+[0m[0mvm/vmmap.c:363 vmmap_map(): 
+...calling vmmap lookup from vmmap_map..
+[0m[0mvm/vmmap.c:224 vmmap_lookup(): VMMAP_LOOKUP: KASSERT(NULL!=map) executed successfully
+[0m[0mvm/vmmap.c:240 vmmap_lookup(): VMMAP_LOOKUP: The given vfn 32846 does not belong to this map
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e7a03c from "vmarea" (0xc1efb2ac), slab 0xc1efb2ac, inuse 2
+[0m
+
+vref: refcount: 3..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed93e4, 0xc1ee51b8 ino 21 up to 4, nrespages=1
+[0m[0mvm/vmmap.c:406 vmmap_map(): VMMAP_MAP: Returning successfully
+[0m[0mvm/vmmap.c:321 vmmap_map(): VMMAP_MAP: KASSERT(off is page aligned) executed successfully
+[0m[0mvm/vmmap.c:325 vmmap_map(): VMMAP_MAP: KASSERT(NULL != map) executed successfully
+[0m[0mvm/vmmap.c:329 vmmap_map(): VMMAP_MAP: KASSERT(0 < npages) executed successfully
+[0m[0mvm/vmmap.c:333 vmmap_map(): VMMAP_MAP: KASSERT(!(~(PROT_NONE | PROT_READ | PROT_WRITE | PROT_EXEC) & prot)) executed successfully
+[0m[0mvm/vmmap.c:337 vmmap_map(): VMMAP_MAP: KASSERT((MAP_SHARED & flags) || (MAP_PRIVATE & flags)) executed successfully
+[0m[0mvm/vmmap.c:341 vmmap_map(): VMMAP_MAP: KASSERT((0 == lopage) || (ADDR_TO_PN(USER_MEM_LOW) <= lopage)) executed successfully
+[0m[0mvm/vmmap.c:345 vmmap_map(): VMMAP_MAP: KASSERT((0 == lopage) || (ADDR_TO_PN(USER_MEM_HIGH) >= (lopage + npages))) executed successfully
+[0m[0mvm/vmmap.c:349 vmmap_map(): VMMAP_MAP: KASSERT(PAGE_ALIGNED(off)) executed successfully
+[0m[0mvm/vmmap.c:363 vmmap_map(): 
+...calling vmmap lookup from vmmap_map..
+[0m[0mvm/vmmap.c:224 vmmap_lookup(): VMMAP_LOOKUP: KASSERT(NULL!=map) executed successfully
+[0m[0mvm/vmmap.c:240 vmmap_lookup(): VMMAP_LOOKUP: The given vfn 32846 does not belong to this map
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e7a078 from "vmarea" (0xc1efb2ac), slab 0xc1efb2ac, inuse 3
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1e79000)
+[0m[31;40mmm/slab.c:253 _slab_allocator_grow(): Growing cache "AnonAllocator" (0xc1efb234), new slab 0xc1e79ff0 (1 pages)
+[0m[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e79000 from "AnonAllocator" (0xc1efb234), slab 0xc1efb234, inuse 1
+[0m[0mvm/anon.c:67 anon_create(): ANON_CREATE: created mmobj
+[0m[0mvm/vmmap.c:406 vmmap_map(): VMMAP_MAP: Returning successfully
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e75000 (2) into 0xc1e75000 and 0xc1e77000
+[0m[37;40mmm/page.c:174 __page_split(): split 0xc1e77000 (1) into 0xc1e77000 and 0xc1e78000
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1e78000)
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[31;40mmm/slab.c:295 slab_obj_alloc(): Allocated object 0xc1e95360 from "pframe" (0xc1efb20c), slab 0xc1efb20c, inuse 13
+[0m[31;40mmm/page.c:258 _page_alloc_order(): allocating 1 pages (addr 0xc1e77000)
+[0m
+
+vref: refcount: 4..........
+[36;40mfs/vnode.c:113 vref(): vref: 0xc1ed93e4, 0xc1ee51b8 ino 21 up to 5, nrespages=1
+[0mkmutex_lock: Trying to acquire lock
+kmutex_lock: Lock acquired
+[33;40mdrivers/disk/ata.c:517 ata_do_operation(): Preparing DMA PRD with data at 0xc1e77000, 8 sectors (total size 4096), and write 0
+[0m[33;40mdrivers/disk/ata.c:526 ata_do_operation(): Preparing disk with seccount 8, lba0 0x80, lba1 0x10, lba2 0x00
+[0m[33;40mdrivers/disk/ata.c:537 ata_do_operation(): Writing command READ DMA, 0xc8
+[0m[33;40mdrivers/disk/ata.c:547 ata_do_operation(): After command, before start of DMA, disk status is 0xd8
+[0msched_sleep_on: Entered
+Enqueuing
+sched_sleep_on: Calling schedule switch
+[33;40mdrivers/disk/ata.c:330 ata_intr_wrapper(): ATA interrupt
+[0m[33;40mdrivers/disk/ata.c:595 ata_intr(): Received interrupt w/ intr number 208, error code 0, for channel 0, drive 0
+[0msched_wakeup_on: Entering
+sched_wakeup_on: dequeued thread
+sched_wakeup_on: and it was a valid thread
+sched_wakeup_on: making it runnable
+sched_make_runnable: Making thread runnable
+sched_wakeup_on: returning
